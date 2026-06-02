@@ -1,13 +1,53 @@
+/* ============ PRODUCT SANS (Google Sans) ============ */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('https://fonts.gstatic.com/s/googlesans/v58/4UaGrENHsxJlGDuGo1OIlL3Kwp5eKQtGBlc.woff2') format('woff2');
+  font-weight: 400; font-display: swap;
+}
+@font-face {
+  font-family: 'Product Sans';
+  src: url('https://fonts.gstatic.com/s/googlesans/v58/4UabrENHsxJlGDuGo1OIlLU94YtzCwZsPF4o.woff2') format('woff2');
+  font-weight: 700; font-display: swap;
+}
+@font-face {
+  font-family: 'Product Sans';
+  src: url('https://fonts.gstatic.com/s/googlesans/v58/4UasrENHsxJlGDuGo1OIlLU94YtzCwZsPF4o.woff2') format('woff2');
+  font-weight: 500; font-display: swap;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #000000;
+  --surface: #111111;
+  --blue: #0071E3;
+  --blue-light: #64D2FF;
+  --orange: #FF9500;
+  --orange-light: #FFD60A;
+  --green: #30D158;
+  --purple: #5E5CE6;
+  --card: rgba(255,255,255,0.04);
+  --border: rgba(255,255,255,0.09);
+}
+
+html { scroll-behavior: smooth; }
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Product Sans', 'Nunito', -apple-system, BlinkMacSystemFont,
+               'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: #fff;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #000; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.28); }
+
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }

@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import SystemOverview from './components/SystemOverview';
+import ErzurumApp from './components/ErzurumApp';
+import Rota25App from './components/Rota25App';
+import TechStack from './components/TechStack';
+import Download from './components/Download';
+import Team from './components/Team';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <main>
+        <Hero />
+        <SystemOverview />
+        <ErzurumApp />
+        <Rota25App />
+        <TechStack />
+        <Download />
+        <Team />
+      </main>
+      <Footer />
     </div>
   );
 }
