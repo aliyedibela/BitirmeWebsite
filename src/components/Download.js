@@ -75,6 +75,7 @@ export default function Download() {
               </div>
             </div>
 
+
             {/* Backend */}
             <div className="dl-card dl-purple">
               <div className="dl-icon" style={{background:'rgba(94,92,230,0.15)'}}>
@@ -87,7 +88,7 @@ export default function Download() {
                   GitHub Repo
                 </a>
               </div>
-              <div className="dl-tags">
+              <div className="dl-tags ">
                 <span>.NET 8</span><span>Docker</span><span>PostgreSQL</span><span>SignalR</span>
               </div>
             </div>
