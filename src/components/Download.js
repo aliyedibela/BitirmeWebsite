@@ -41,7 +41,7 @@ export default function Download() {
                 <img src={erzbLogo} alt="Erzurum BB" style={{width:32,height:32,objectFit:'contain'}} />
               </div>
               <div className="dl-name">Erzurum Şehir Rehberi</div>
-              <div className="dl-sub">Yolcu Uygulaması — Flutter Android</div>
+              <div className="dl-sub">Yolcu Uygulaması | Flutter Android</div>
               <div className="dl-btns">
                 <a href={DL_ERZURUM} className="dl-btn primary" download="erzurum-sehir-rehberi.apk">
                   ⬇ APK İndir
@@ -61,7 +61,7 @@ export default function Download() {
                 <img src={rota25Logo} alt="Rota 25" style={{width:32,height:32,objectFit:'contain'}} />
               </div>
               <div className="dl-name">Rota 25 Taksi</div>
-              <div className="dl-sub">Sürücü Uygulaması — Flutter Android</div>
+              <div className="dl-sub">Sürücü Uygulaması | Flutter Android</div>
               <div className="dl-btns">
                 <a href={DL_ROTA25} className="dl-btn primary orange" download="rota25-taksi.apk">
                   ⬇ APK İndir
@@ -81,7 +81,7 @@ export default function Download() {
                 <img src={dotnetLogo} alt=".NET" style={{width:30,height:30,objectFit:'contain'}} />
               </div>
               <div className="dl-name">TaxiSignalR Backend</div>
-              <div className="dl-sub">.NET 8 WebAPI — Railway.app Deploy</div>
+              <div className="dl-sub">.NET 8 WebAPI | Railway.app Deploy</div>
               <div className="dl-btns">
                 <a href={GH_BACKEND} target="_blank" rel="noreferrer" className="dl-btn primary purple">
                   GitHub Repo
