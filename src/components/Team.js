@@ -95,7 +95,7 @@ export default function Team() {
           <img src={etuLogo} alt="Erzurum Teknik Üniversitesi" className="uni-logo-img" />
           <div>
             <div className="uni-name">Erzurum Teknik Üniversitesi</div>
-            <div className="uni-dept">Bilgisayar Mühendisliği Bölümü — Bitirme Projesi 2026</div>
+            <div className="uni-dept">Bilgisayar Mühendisliği Bölümü | Bitirme Projesi 2026</div>
             <div className="uni-advisor">Danışman: Dr. Öğr. Üyesi Arif Metehan YILDIZ</div>
           </div>
         </div>

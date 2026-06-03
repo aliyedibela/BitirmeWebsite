@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="footer-divider" />
         <div className="footer-bottom">
           <div className="footer-copy">
-            © {year} Erzurum Teknik Üniversitesi — Bilgisayar Mühendisliği Bitirme Projesi
+            © {year} Erzurum Teknik Üniversitesi | Bilgisayar Mühendisliği Bitirme Projesi
           </div>
           <div className="footer-techs">
             {['Flutter 3', '.NET 8', 'SignalR', 'PostgreSQL', 'Railway.app', 'Docker'].map(t => (
